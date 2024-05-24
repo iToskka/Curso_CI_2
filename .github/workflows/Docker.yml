@@ -20,6 +20,5 @@ jobs:
         
         username: toskka
         # Password or personal access token used to log against the Docker registry
-        password: # optional
-        # Specifies whether the given registry is ECR (auto, true or false)
+        password: ${{ secrets.PASSWORD_DOCKER_HUB }}
           
